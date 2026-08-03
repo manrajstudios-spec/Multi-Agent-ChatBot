@@ -1,8 +1,6 @@
-# Multi-Agent ChatBot / Yuzu AI Companion
+# Multi-Agent ChatBot 
 
-Yuzu is a local-first personal AI companion built from scratch in Python.
-
-She can chat naturally, remember useful past conversations, read documents, search the web, open apps, use voice input, and respond through text or speech. The core systems — routing, memory retrieval, document retrieval, chunking, graph search, and context building — are custom-built without LangChain, LlamaIndex, or any ready-made RAG framework.
+It can chat naturally, remember useful past conversations, read documents, search the web, open apps, use voice input, and respond through text or speech. The core systems — routing, memory retrieval, document retrieval, chunking, graph search, and context building — are custom-built without LangChain, LlamaIndex, or any ready-made RAG framework.
 
 This project is mainly built as a standalone local AI assistant and learning project. It focuses on understanding how real assistant pipelines work internally: query routing, tool use, retrieval, memory, web search, document search, speech input, and response generation.
 
@@ -300,7 +298,7 @@ The assistant can run in written mode without needing to use the voice pipeline.
 
 ## App Launcher
 
-Yuzu can open apps or websites from user requests.
+It can open apps or websites from user requests.
 
 The app launcher:
 
